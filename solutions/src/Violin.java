@@ -1,11 +1,8 @@
 public class Violin extends Instrument {
-    private int sellPrice;
-    private int buyPrice;
     private int transportCost;
 
     public Violin(int sellPrice, int buyPrice, int transportCost) {
-        this.sellPrice = sellPrice;
-        this.buyPrice = buyPrice;
+        super(buyPrice, sellPrice);
         this.transportCost = transportCost;
     }
 
